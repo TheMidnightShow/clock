@@ -4,8 +4,8 @@ CCFLAGS=-std=c++20
 O=./objects
 SRC=../clock
 
-OBJ=							\
-		$(O)/main.o		\
+OBJ=				\
+	$(O)/main.o		\
 		$(O)/clock.o	\
 
 clock: $(OBJ)
